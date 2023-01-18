@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+
+@font-face {
+    font-family: FiraGo-Regular;
+    src: url(../fonts/FiraGO-Regular.ttf);
+}
+
+@font-face {
+    font-family: FiraGo-SemiBold;
+    src: url(../fonts/FiraGO-SemiBold.ttf);
+
+
+}
+
+body {
+    background-color: #000000;
+    
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    border-bottom: solid #ffffff 1px;
+}
+
+header h1 a{
+    color: #ffffff;
+    margin-right: 800px;
+    font-family: FiraGo-Regular;
+    
+}
+
+header h1{
+    float: left;
+    margin-left: 60px;
+    margin-top: 38px;
+    font-size: 20px;
+    font-family: FiraGo-Regular;
+    
+}
+
+nav ul li {
+    float: left;
+    color: #ffffff;
+    padding: 5px 10px;
+    margin-top: 38px;
+    font-size: 16px;
+    list-style: none;
+    font-family: FiraGo-Regular;
+}
+
+
+
+   /* =---------main-------- */
+
+.pirveli{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 38px;
+    font-size: 128px;
+    letter-spacing: 100px;
+    margin-bottom: 184px;
+    font-family: FiraGo-Regular;
+}
+
+main p{
+    color: #ffffff;
+    float: left;
+    inline-size: 450px;
+    padding-left: 132px;
+    text-align: center;
+    font-family: FiraGo-Regular;
+}
+
+
+.xazi{
+    background-color: #ffffff;
+    width: 100%;
+    height: 1px;
+    margin-top: 400px;
+ 
+}
+
+.satauri{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: FiraGo-Regular;
+}
+
+.box{
+    width: 33.33%;
+    float: left;
+    margin-top: 50px;
+    border: solid 14px;
+    
+    
+}
+
+.box .statiaimg{
+    width: 100%;
+    height: 628px;
+    overflow: hidden;
+    
+}
+
+.box .statiaimg img{
+    width: 464px;
+    height: 628px;
+    margin-top: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    border-top: solid #ffffff 1px;
+    margin-top: 800px;
+}
+
+footer div{
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    float: left;
+}
+
+footer p{
+    color: #ffffff;
+    margin-top: 60px;
+ 
+   font-size: 20px; 
+   line-break: normal;
+   font-family: FiraGo-Regular;
+
+}
+
+.taxti{
+    font-size: 14px;
+}
+
+.cont1{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: FiraGo-Regular;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 75px;
+    padding: 5px 10px;
+}
+
+.taxti{
+    font-size: 14px;
+}
